@@ -1,0 +1,15 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.changenav-bg{
+    /* background-color:saddlebrown !important; */
+    background-image: url(images/header_bg.png);
+    /* height: 100% !important; */
+    height: 124px;
+
+}
+.container-image{
+    background-image: url(images/body_bg.jpg);
+    height: 870px;
+
+}
