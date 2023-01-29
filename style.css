@@ -72,4 +72,26 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 34px;
+    position: relative;
+    left: 30px;
 }
+/* Footer */
+.changefooter-bg{
+    /* background-color:saddlebrown !important; */
+    background-image: url(images/footer.png);
+    /* height: 100% !important; */
+    height: 107px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 576px) {
+    .hidden-container {
+      display: block;
+    }
+  }
+  @media only screen and (min-width: 576px) {
+    .hidden-container {
+      display: none;
+    }
+  }
