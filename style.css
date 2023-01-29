@@ -1,42 +1,63 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
-.changenav-bg{
+
+.changenav-bg {
     /* background-color:saddlebrown !important; */
     background-image: url(images/header_bg.png);
     /* height: 100% !important; */
     height: 124px;
 
 }
-.container-image{
+
+.container-image {
     background-image: url(images/body_bg.jpg);
     height: 870px;
 
 }
+
 /* navbar  */
 /* a{
     text-decoration: none;
 } */
-#big_logo{
+#big_logo {
     width: 80px;
     height: 80px;
 }
-#right_bg{
+
+#right_bg {
     background-image: url(images/container_bg.png);
     height: 891px;
     width: 468px;
 }
 
 /* middle container */
-.input-area{
+.input-area {
     width: 330px;
     height: 46px
 }
-.download-guide{
+
+.download-guide {
     width: 330px;
     height: 113px
 }
-.download-guide img{
-position: relative;
-bottom: 26px;
+
+.download-guide img {
+    position: relative;
+    bottom: 26px;
+}
+
+.green-bg {
+    background-color: #5fa22e;
+}
+
+/* About cards*/
+#icon_position {
+    padding-left: 120px;
+}
+
+/* Client say */
+.textbg-green {
+    color: #5fa22e;
+
 }
