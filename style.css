@@ -61,3 +61,15 @@ body {
     color: #5fa22e;
 
 }
+.some-height{
+    height: 522px;
+}
+
+/* icons and download */
+.download-bg{
+    background-image: url(images/container_bg_alt.png);
+    height: 233px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 34px;
+}
