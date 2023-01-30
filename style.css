@@ -29,16 +29,20 @@ body {
     background-image: url(images/container_bg.png);
     height: 891px;
     width: 468px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 /* middle container */
 .input-area {
-    width: 330px;
+    width: 100%;
     height: 46px
 }
 
 .download-guide {
-    width: 330px;
+    width: 100%;
     height: 113px
 }
 
@@ -56,27 +60,60 @@ body {
     padding-left: 120px;
 }
 
+.about-height {
+    height: 88px;
+}
+
+.remove-br {
+    max-width: 66%;
+}
+
 /* Client say */
 .textbg-green {
     color: #5fa22e;
 
 }
-.some-height{
-    height: 522px;
+
+.some-height {
+    height: 206px;
+}
+
+.title-height {
+    height: 108px;
+}
+
+.paragraph-height {
+    height: 210px;
+
 }
 
 /* icons and download */
-.download-bg{
+.download-bg {
     background-image: url(images/container_bg_alt.png);
     height: 233px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     margin-top: 34px;
-    position: relative;
-    left: 30px;
+    /* position: relative;
+    left: 30px; */
 }
+
+.alignbg-text {
+    /* position: relative;
+    top: 127px;
+    right: 48px;
+    color: white; */
+    padding-top: 120px;
+
+}
+
+.fix-icons div img {
+    width: 100%;
+}
+
 /* Footer */
-.changefooter-bg{
+.changefooter-bg {
     /* background-color:saddlebrown !important; */
     background-image: url(images/footer.png);
     /* height: 100% !important; */
@@ -87,11 +124,25 @@ body {
 
 @media only screen and (max-width: 576px) {
     .hidden-container {
-      display: block;
+        display: block;
     }
-  }
-  @media only screen and (min-width: 576px) {
+
+    .hide-title {
+        display: none;
+    }
+
+    .small-title {
+        font-size: 20px;
+        margin-left: -13px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
     .hidden-container {
-      display: none;
+        display: none;
     }
-  }
+
+    .hide-title {
+        display: contents;
+    }
+}
