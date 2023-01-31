@@ -1,38 +1,46 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+input{
+    border: 0px;
+}
 
 .changenav-bg {
-    /* background-color:saddlebrown !important; */
     background-image: url(images/header_bg.png);
-    /* height: 100% !important; */
     height: 124px;
 
 }
 
 .container-image {
     background-image: url(images/body_bg.jpg);
-    height: 870px;
-
-}
-
-/* navbar  */
-/* a{
-    text-decoration: none;
-} */
-#big_logo {
-    width: 80px;
-    height: 80px;
-}
-
-#right_bg {
-    background-image: url(images/container_bg.png);
-    height: 891px;
-    width: 468px;
+    /* height: 870px; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+.containerimage-small {
+    background-image: url(images/body_bg.jpg);
+    /* height: 870px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* navbar  */
+
+.big-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.right-bg {
+    background-image: url(images/container_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* middle container */
@@ -54,19 +62,36 @@ body {
 .green-bg {
     background-color: #5fa22e;
 }
+.adjustform-bg{
+    clear: both; 
+    padding-bottom: 171px;
+}
 
 /* About cards*/
 #icon_position {
-    padding-left: 120px;
+    margin: 0 auto;
+    display: inline-block
 }
 
 .about-height {
-    height: 88px;
+    height: 80px;
 }
 
-.remove-br {
-    max-width: 66%;
+.set-position {
+    max-width: 400px;
+    margin: 0 auto;
 }
+
+.make-relative {
+    position: relative;
+}
+
+.make-absolute {
+    position: absolute;
+    bottom: 0px;
+}
+
+
 
 /* Client say */
 .textbg-green {
@@ -78,13 +103,19 @@ body {
     height: 206px;
 }
 
+.client-height {
+    height: 538px;
+
+}
+
 .title-height {
     height: 108px;
 }
 
 .paragraph-height {
     height: 210px;
-
+    overflow: hidden;
+    text-overflow: hidden;
 }
 
 /* icons and download */
@@ -95,15 +126,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 34px;
-    /* position: relative;
-    left: 30px; */
+
 }
 
 .alignbg-text {
-    /* position: relative;
-    top: 127px;
-    right: 48px;
-    color: white; */
+   
     padding-top: 120px;
 
 }
@@ -114,10 +141,10 @@ body {
 
 /* Footer */
 .changefooter-bg {
-    /* background-color:saddlebrown !important; */
     background-image: url(images/footer.png);
-    /* height: 100% !important; */
-    height: 107px;
+    background-size: contain;
+    /* background-repeat-y:no-repeat; */
+
 }
 
 /* media query */
@@ -135,7 +162,34 @@ body {
         font-size: 20px;
         margin-left: -13px;
     }
+
+    .adjustfont-h4 {
+        font-size: 26px;
+    }
+
+    .container-image {
+        background-image: none;
+    }
+
+
+    .small-icon {
+        width: 55px;
+        height: 55px;
+    }
+    #increase_font{
+        font-size: 45px;
+    }
+    .heightonly-small{
+        height: 650px;
+    }
+    .guide-cover{
+        background-size: cover;
+        height: 272px;
+    }
+    
 }
+
+
 
 @media only screen and (min-width: 576px) {
     .hidden-container {
@@ -145,4 +199,19 @@ body {
     .hide-title {
         display: contents;
     }
+    .containerimage-small {
+        /* display: none; */
+        background-image: none;
+    }
+    #increase_font{
+        font-size: 60px;
+    }
+    .padding-ptag{
+        padding-left: 99px;
+    }
+    .adjustform-float{
+        float: right; 
+    }
+
 }
+
