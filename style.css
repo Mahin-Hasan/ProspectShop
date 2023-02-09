@@ -44,6 +44,12 @@ input{
 }
 
 /* middle container */
+.book-background-margin{
+    margin-top: 62px;
+}
+.logo-top-padding{
+    width: 50px;
+}
 .input-area {
     width: 100%;
     height: 46px
@@ -137,6 +143,9 @@ input{
 
 .fix-icons div img {
     width: 100%;
+}
+.guide-logo-height{
+    height: 75px;
 }
 
 /* Footer */
